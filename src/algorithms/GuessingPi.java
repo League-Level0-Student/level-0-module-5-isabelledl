@@ -17,14 +17,16 @@ String pie= JOptionPane.showInputDialog("Put in all the digits of pi you know");
 		// 3. Print out the first 3 digits of Pi to the console.
 		//    The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 		//    Run your program to see how this works.
-  pi.charAt(0); pi.charAt(1)
+ System.out.println( pie.charAt(0)); System.out.println(pie.charAt(1));
 		// 9. If you want to give the user more than one chance to guess,
 		//    put a for loop around steps 4-8.
 
 			// 4. Create a for loop that will step through each digit of pi (steps 5-8)
 			//    NOTE: The number of digits in your string will be
 			//       yourStringVariable.length()
-
+for (int i = 0; i ; i++) {
+	
+}
 				// 5. Ask the user for the NEXT digit of pi.
 
 				// 6. Compare the user's input to the next digit of your pi variable 
