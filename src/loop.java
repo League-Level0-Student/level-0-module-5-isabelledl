@@ -22,9 +22,13 @@ public class loop {
 				System.out.println(i + " is even");
 			} else {
 				System.out.println(i + " is odd ");
-
 			}
-			System.out.println();
 		}
+		for (int j = 2007; j < 2020; j++) {
+			int age = j - 2007;
+			System.out.println(j);
+			System.out.print("I was" + age);
+		}
+
 	}
 }
