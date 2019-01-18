@@ -26,8 +26,21 @@ public class loop {
 		}
 		for (int j = 2007; j < 2020; j++) {
 			int age = j - 2007;
-			System.out.println(j);
-			System.out.print("I was" + age);
+			System.out.println(" In "+ j+ " I was " + age+" years old");
+		}
+		for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			System.out.println(i+"  "+j);
+		}	
+		}
+		for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+		for (int j2 = 0; j2 < 3; j2++) {
+			System.out.println(i+" "+j+" "+j2);
+			}
+				
+			}
+			
 		}
 
 	}
