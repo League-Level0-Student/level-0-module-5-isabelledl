@@ -32,16 +32,41 @@ public class loop {
 		for (int j = 0; j < 3; j++) {
 			System.out.println(i+"  "+j);
 		}	
-		}
+		} 
+		int k=1;
 		for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
-		for (int j2 = 0; j2 < 3; j2++) {
-			System.out.println(i+" "+j+" "+j2);
+		
+			System.out.print(k);
+		k++;
+		System.out.print(" ");
 			}
 				
-			}
 			
+			System.out.println();
 		}
-
+		int h=1;
+for (int i = 0; i < 10; i++) {
+	for (int j = 0; j < 10; j++) {
+		System.out.print(h);
+		h++;
+		System.out.print(" ");
+		
 	}
+	System.out.println();
 }
+String g= "*";
+int d=1;
+for (int i = 0; i < 6; i++) {
+	for (int j = 0; j  <  d; j++) {
+		System.out.print(g);
+		System.out.print(" ");
+	}
+	System.out.println();
+d++;
+
+	
+}	
+}
+	}
+
